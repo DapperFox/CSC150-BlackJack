@@ -2,11 +2,9 @@
  * @author amartinez
  *
  */
-public abstract class Player 
+public abstract class Player
 {
-	public int wallet = 100;
-	public int bet;	
-	public String name;
-	public abstract int betting();
-	public abstract int getHandTotal(String[] hand);
+	public double wallet;
+	protected String name;
+	protected abstract int getHandTotal(String[] hand);
 }
